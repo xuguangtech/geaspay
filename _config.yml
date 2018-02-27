@@ -1,0 +1,4 @@
+baseurl: /
+url: http://www.gbtc8.com
+source:      _source
+destination: _deploy
