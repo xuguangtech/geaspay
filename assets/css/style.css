@@ -113,7 +113,7 @@ header{
     -webkit-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    /* min-height: 960px; */
+    min-height: 100%;
 }
 header img{display: block; margin: 200px auto  50px auto;}
 header .intro-text .intro-heading {text-transform: uppercase;font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight: 700;font-size: 50px;}
