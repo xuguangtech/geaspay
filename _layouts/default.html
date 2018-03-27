@@ -1,121 +1,246 @@
+<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    
-    <title>GEAS -- Global Easy and Safety</title>
-
-    <link rel="shortcut icon" type="image/ico" href="{{ '/assets/img/favicon.ico' | relative_url }}">
-    <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/reset.css' | relative_url }}"> <!-- CSS reset -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/animated-logo.min.css' | relative_url }}"><!-- Logo -->
-    <link rel="stylesheet" href="{{ '/assets/css/our-team.css' | relative_url }}"> <!-- Resource style -->
-
-    <!-- Custom Fonts -->
-    <link href="{{ '/assets/font-awesome/css/font-awesome.min.css' | relative_url }}" rel="stylesheet" type="text/css">
-
-    <!--
-     style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage
-     no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize
-     borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections
-     csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage
-     webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"
-    -->
-    <!-- Js -->
-    <script src="{{ '/assets/js/modernizr.js' | relative_url }}"></script> <!-- Modernizr -->
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <!-- <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>-->
-    <![endif]-->
+<meta charset="utf-8">
+<meta name="renderer" content="webkit"> 
+<title>GEAS -- Global Easy and Safety</title>
+<link href="{{ '/asset/css/style.min.css' | relative_url }}" rel="stylesheet">
+<link href="{{ '/asset/css/animate.css' | relative_url }}" rel="stylesheet">
 </head>
+
 <body>
-<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-    <div class="container">
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top" style="padding:0;height: 60px;display: -webkit-flex;display: flex;-webkit-align-items: center;align-items: center;-webkit-justify-content: center;justify-content: center;">
-                <img src="{{ '/assets/img/logo.png' | relative_url }}" style="max-height: 60px;">
-            </a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li class=""><a class="page-scroll" href="#page-top">Home</a></li>
-                <li class=""><a class="page-scroll" href="#payments">Payments</a></li>
-                <li class=""><a class="page-scroll" href="#services">Services</a></li>
-                <li class=""><a class="page-scroll" href="#solutions">Solutions</a></li>
-                <li class=""><a class="page-scroll" href="#aboutus">About Us</a></li>
-            </ul>
+<!-- <div id="header">
+    <div class="wrapper">
+        <div class="fr lang">
+            <a href="javascript:"><em class="china"></em><i></i>|<span>Chinese</span></a>
         </div>
     </div>
-</nav>
-<section id="page-top" class="">
-    <img src="{{ '/assets/img/linshi/header.jpg' | relative_url }}">
-</section>
-<!-- ////////////Content Box 01 payments -->
-<section id="payments" class="">
-    <img src="{{ '/assets/img/linshi/payments.jpg' | relative_url }}">
-</section>
-<!-- ////////////Content Box 02 products -->
-<section id="services">
-    <img src="{{ '/assets/img/linshi/products_1.jpg' | relative_url }}">
-</section>
-<section>
-    <img src="{{ '/assets/img/linshi/products_2.jpg' | relative_url }}">
-</section>
-
-<!-- ////////////Content Box 01 payments -->
-<section id="safety" class="">
-    <img src="{{ '/assets/img/linshi/safety.jpg' | relative_url }}">
-</section>
-
-<section id="solutions" class="">
-    <img src="{{ '/assets/img/linshi/solutions.jpg' | relative_url }}">
-</section>
-<!-- ////////////Content Box 01 payments -->
-<section id="aboutus" class="">
-    <img src="{{ '/assets/img/linshi/about_us.jpg' | relative_url }}">
-</section>
-<!-- ////////////Content Box 01 payments -->
-<section id="partner" class="">
-    <img src="{{ '/assets/img/linshi/partner.jpg' | relative_url }}">
-</section>
-<!-- ////////////Content Box 01 payments -->
-<section id="contact" class="">
-    <img src="{{ '/assets/img/linshi/contact.jpg' | relative_url }}">
-</section>
-<!-- jQuery -->
-<script src="{{ '/assets/js/jquery-2.1.1.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/masonry.pkgd.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/jquery.flexslider-min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/main.js' | relative_url }}"></script> <!-- Resource jQuery -->
-
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="{{ '/assets/js/agency.js' | relative_url }}"></script>
-
-<!-- Animated Top -->
-<script src="{{ '/assets/js/jquery.easing.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/classie.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/cbpAnimatedHeader.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
-
-
-</body></html>
+</div> -->
+<div id="head">
+    <div class="wrapper clearfix">
+        <a href="javascript:" class="logo fl head"></a>
+        <div id="nav" class="fr">
+            <ul>
+                <li><a href="javascript:" class="head">Home</a></li>
+                <li><a href="javascript:" class="payments">Payments</a></li>
+                <li><a href="javascript:" class="services">Services</a></li>
+                <li><a href="javascript:" class="solutions">Solutions</a></li>
+                <li><a href="javascript:" class="about">About us</a></li>
+            </ul>
+        </div>        
+    </div>
+</div>
+<div id="banner">
+    <div class="wrapper">
+        <div class="box">
+        </div>
+        <div class="big wow bounceInUp animated">
+            <h1>One-stop Global Online Payment Solution Provider</h1>
+            <p>GEAS offers a single API for accessing 300+ local payment methods, including credit cards, <br>digital wallets, local payments, online bank transfers and many others, <br>to provide a better payment experience for all users.</p>            
+        </div>
+    </div>
+</div>
+<div id="payments">
+    <div class="wrapper">
+        <div class="head wow bounceInUp animated">
+            <h2 class="title">Payment Scheme</h2>
+            <div class="intro">Industry-leading technology serves as an “escort” for merchants’ cross-border payments,<br>providing cardholders with a better, safer payment experience.</div>            
+        </div>
+        <div class="content">
+            <div class="item">
+                <span class="icon"><img src="{{ '/assets/images/pay.png' | relative_url }}"></span>
+                <strong>Global Payment Solution</strong>
+                <p>Our team consists of our professionals who have years of experience in the payments industry, working with clients from every field. They are ready to tailor-make a global payment solution designed just for you.</p>
+            </div>
+            <div class="item">
+                <span class="icon"><img src="{{ '/assets/images/credit.png' | relative_url }}"></span>
+                <strong>International Credit Card Payments</strong>
+                <p>GEAS provides an online payment channel that supports a comprehensive range of international credit cards, including Visa, MasterCard, JCB and other leading card companies.</p>
+            </div>
+            <div class="item">
+                <span class="icon"><img src="{{ '/assets/images/local.png' | relative_url }}"></span>
+                <strong>Localized Payments</strong>
+                <p>GEAS currently supports localized payment methods from the Middle East, Europe, the Americas, Southeast Asia and others. This improves the user’s payment experience, while simultaneously enhancing your brand.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="wrapper">
+        <div class="head wow bounceInUp animated">
+            <h2 class="title">Products and Services</h2>
+            <div class="intro">GEAS has received multiple international financial security certifications. We use advanced technology to protect your accounts 24/7, ensuring the safety of all transactions. All for your peace of mind!</div>            
+        </div>
+        <div class="bg"></div>
+        <img src="{{ '/assets/images/book.png' | relative_url }}" alt="" class="book"><img src="{{ '/assets/images/pad.png' | relative_url }}" alt="" class="pad">
+    </div>
+</div>
+<div id="data">
+    <div class="wrapper clearfix">
+        <div class="wrap fl">
+            <div class="item global">
+                <h4>Global Online Gateway and Mobile Payments</h4>
+                <p>
+                    We are a one-stop comprehensive payment technology service provider. Our platform provides a single access point for over 120 different international credit cards and other payment methods. We can also collect and remit payments all over the world. You won’t have to open multiple overseas accounts or set up new overseas companies for every country you do business in.
+                </p>
+                <img src="{{ '/assets/images/phone_bg.png' | relative_url }}" alt="">
+            </div>
+            <div class="item local">
+                <h4>Data and Analysis</h4>
+                <p>
+                    Through our business intelligence (BI) tools, you can achieve a detailed understanding of the data generated through your business sales and payment models. Our tools will help you to fully utilize this data to evaluate key performance indicators and make the best strategic decisions for your business.
+                </p>
+                <img src="{{ '/assets/images/local_bg.png' | relative_url }}" alt="">
+            </div>
+        </div>
+        <div class="wrap fr">
+            <div class="item datas">
+                <h4>Localized Payments</h4>
+                <p>
+                    Many countries have unique popular payment methods. By working closely with third-party payment methods and banks from each country, GEAS allows users to pay with local digital wallets, debit cards, online bank transfers and so on. Consumers from different countries have their own preferred payment methods. GEAS can provide customized payment solutions for the markets you are targeting for expansion.
+                </p>
+                <img src="images/data_bg.png" alt="">
+            </div>            
+            <div class="item currency">
+                <h4>Multi-currency Management</h4>
+                <p>
+                    Break into the global market. Supported transaction currencies include USD, EUR, GBP, HKD and many others. Supported settlement currencies include USD, EUR, HKD and others—the list is still growing.
+                </p>
+                <img src="{{ '/assets/images/currency_bg.png' | relative_url }}" alt="">
+            </div>            
+        </div>
+    </div>
+</div>
+<div id="safety">
+    <div class="wrapper">
+        <div class="fl info">
+            <h2>Safety Regulations</h2>
+            <p>In order to ensure the security of customers’ funds, GEAS pro-actively adheres to global industry regulations, strictly following international anti-money laundering conventions and the rules and guidelines set out by the Financial Action Task Force. We seek to lead the industry in corporate responsibility.</p>
+        </div>
+        <div class="fr animate">
+            <div class="wrap">
+            </div>
+            <div class="item">
+            </div>
+            <div class="inset">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="solutions">
+    <div class="wrapper">
+        <div class="head wow bounceInUp animated">
+            <h2 class="title">Global Industry Solutions</h2>
+            <div class="intro">Our method is to generate new value through cross-border integration, focusing on cross-border trade, aviation, games, interactive media and others. GEAS provides payment solutions and services that are in line with the latest developmental trends in each industry, helping merchants to improve their cash flow.</div>
+        </div>
+        <div class="content">
+            <div class="item">
+                <img src="{{ '/assets/images/shops.png' | relative_url }}" alt="">
+                <div class="rig">
+                    <strong>E-commerce and Retail</strong>
+                    <p>Improve your cash flow in the new global market. With a one-time, simple integration, we can increase your revenue, while providing your customers with an enhanced experience.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="{{ '/assets/images/tour.png' | relative_url }}" alt="">
+                <div class="rig">
+                    <strong>Travel and Hospitality</strong>
+                    <p>Reach and attract customers by providing them with an ideal payment experience, no matter where they are or what device they are using. Our excellent global coverage will help you save energy and resources on development.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="{{ '/assets/images/game.png' | relative_url }}" alt="">
+                <div class="rig">
+                    <strong>Digital Entertainment</strong>
+                    <p>No matter what kind of video game products your company manages, we can help you to simplify your payment process, increasing player expenditure and improving your cash flow.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="{{ '/assets/images/abroad.png' | relative_url }}" alt="">
+                <div class="rig">
+                    <strong>Studying Abroad</strong>
+                    <p>With lower transaction costs, advisory support and maximized transaction acceptance rates, we offer an improved consumer experience and outstanding competitive advantage.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="wrapper">
+        <img src="{{ '/assets/images/building.png' | relative_url }}" alt="">
+        <div class="rig">
+            <h4>About GEAS</h4>
+            <p>GEAS is a one-stop global online payment solutions provider. We are committed to providing simple, convenient and safe global payment solutions. GEAS provides one-stop access to over 300 local payment methods, including credit cards, digital wallets, local payments and online bank transfers. We cover more than 100 countries and regions, including Europe, Latin America, the Middle East and Southeast Asia.
+                    <br><br>
+                The GEAS team is composed of top financial and IT experts with years of experience in the financial and payment industries. They have a deep understanding of the importance of safety and compliance in running a financial service. Security of funds and information is the cornerstone of our design and service.
+                <br><br>
+                At present, GEAS is building an international software architecture and operating system, including GEAS Europe, GEAS Hong Kong and GEAS China, so as to support global business expansion.</p>
+        </div>
+    </div>
+    <img src="{{ '/assets/images/triangle.png' | relative_url }}" class="bot">
+</div>
+<div id="partner">
+    <div class="wrapper">
+        <div class="head wow bounceInUp animated">
+            <h2 class="title">Partner Institutions</h2>
+            <div class="intro">Building a one-stop, cross-border financial technology solution with our thoughtful bespoke service.</div>
+        </div>
+        <div class="cooperate">
+            <ul>
+                <li class="paysafe"><img src="{{ '/assets/images/cooperate/paysafecard.png' | relative_url }}" alt=""></li>
+                <li class="mul"><img src="{{ '/assets/images/cooperate/multibanco.png' | relative_url }}" alt=""></li>
+                <li class="zong"><img src="{{ '/assets/images/cooperate/zong.png' | relative_url }}" alt=""></li>
+                <li class="dotpay"><img src="{{ '/assets/images/cooperate/dotpay.png' | relative_url }}" alt=""></li>
+                <li class="payment"><img src="{{ '/assets/images/cooperate/paymentwall.png' | relative_url }}" alt=""></li>
+                <li class="skrill"><img src="{{ '/assets/images/cooperate/skrill.png' | relative_url }}" alt=""></li>
+                <li class="paypal"><img src="{{ '/assets/images/cooperate/paypal.png' | relative_url }}" alt=""></li>
+                <li class="ideal"><img src="{{ '/assets/images/cooperate/ideal.png' | relative_url }}" alt=""></li>
+                <li class="barzahlen"><img src="{{ '/assets/images/cooperate/barzahlen.png' | relative_url }}" alt=""></li>
+                <li class="maestro"><img src="{{ '/assets/images/cooperate/maeatro.png' | relative_url }}" alt=""></li>
+                <li class="eps"><img src="{{ '/assets/images/cooperate/eps.png' | relative_url }}" alt=""></li>
+                <li class="boku"><img src="{{ '/assets/images/cooperate/boku.png' | relative_url }}" alt=""></li>
+                <li class="klarma"><img src="{{ '/assets/images/cooperate/klarna.png' | relative_url }}" alt=""></li>
+                <li class="master"><img src="{{ '/assets/images/cooperate/mastercard.png' | relative_url }}" alt=""></li>
+                <li class="bitcoin"><img src="{{ '/assets/images/cooperate/bitcoin.png' | relative_url }}" alt=""></li>
+                <li class="ecard"><img src="{{ '/assets/images/cooperate/ecard.png' | relative_url }}" alt=""></li>
+                <li class="visa"><img src="{{ '/assets/images/cooperate/visa.png' | relative_url }}" alt=""></li>
+                <li class="giro"><img src="{{ '/assets/images/cooperate/giropay.png' | relative_url }}" alt=""></li>
+            </ul>  
+        </div>              
+    </div>
+</div>
+<div id="contact">
+    <div class="wrapper clearfix">
+        <form action="javascript:">
+            <div class="fl us">
+                <strong>Contact us</strong>
+                <img src="{{ '/assets/images/logo_contact.png' | relative_url }}" alt="" class="lg">
+                <p>E-mail: lili@geasgroup.com.</p>
+                <p>Company Address:</p>
+                <ul>
+                    <li><img src="{{ '/assets/images/sh.png' | relative_url }}" alt=""><span>5F,Huadian Building,No.839 Guozhan Road Pudong District,Shanghai,China</span></li>
+                    <li><img src="{{ '/assets/images/hk.png' | relative_url }}" alt=""><span>Room 702 7/F Kowloon Building,555 Nathan Road,Kowloon,Hong Kong</span></li>
+                </ul>
+            </div>
+            <div class="fr msg">
+                <div class="col"><input type="text"  placeholder="Enter Name" name="uname" class="uname"></div>
+                <div class="col"><input type="text"  placeholder="Enter Email" name="email" class="email"></div>
+                <div class="col"><input type="text"  placeholder="Enter Subject" name="subject" class="subject"></div>
+                <div class="col text"><textarea name="" id="" placeholder="Enter Message" name="msgtext" class="msgtext"></textarea></div>
+                <div class="col last"><input type="submit" class="btn" value="Submit"></div>
+                <span class="error"></span>
+            </div>
+        </form>
+    </div>
+    <div id="footer">
+        Copyright © 2017 Geaspay.com All rights reserved.
+    </div>
+</div>
+<a href="javascript:" class="gotop"></a>
+<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/waypoints.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/wow.js' | relative_url }}"></script>
+</body>
+</html>
