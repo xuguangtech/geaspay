@@ -115,6 +115,11 @@ $(function(){
         }else{
             $("#head").removeClass("fixed");
         } 
+        if($(window).scrollTop() >= 850){
+            $("#head").addClass("opty");
+        }else if($(window).scrollTop() < 850){
+            $("#head").removeClass("opty");
+        }
     });
 
     //导航点击事件
@@ -164,6 +169,13 @@ $(function(){
         })
 
     });
+
+    setTimeout(function(){
+        $("#banner .box").fadeIn();
+    },1000);
+    setTimeout(function(){
+        $("#banner .big").addClass("wow bounceInUp animated").css({"visibility": "visible", "animation-name":"bounceInUp"});
+    },2000);
 
     // 返回顶部
     $(".gotop").click(function() {
