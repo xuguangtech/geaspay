@@ -1,4 +1,4 @@
 baseurl: /
-url: http://www.bluewhalechain.com
+url: http://www.bluewhalechain.io
 source:      _source
 destination: _deploy
